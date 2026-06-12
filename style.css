@@ -71,3 +71,10 @@ body {
   border-radius: 16px;
   border: 1px solid white;
 }
+
+#container-tarjetas-busqueda {
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  justify-content: center;
+}
