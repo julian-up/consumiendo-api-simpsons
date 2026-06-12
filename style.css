@@ -1,0 +1,73 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+header,
+body {
+  background-color: ivory;
+  padding: 2rem;
+}
+
+.section-contenido {
+  border: 2px solid black;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+#barra-de-busqueda {
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 16px;
+  background-color: grey;
+  box-shadow: 0 0 10px black;
+  padding: 20px;
+  width: fit-content;
+  font-weight: 100;
+}
+
+.container-tarjetas {
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.simpson-tarjeta {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  min-width: 300px;
+  height: 310px;
+  border: 2px solid black;
+  border-radius: 16px;
+  background-color: gray;
+  padding: 10px;
+  gap: 1px;
+  align-items: center;
+  box-shadow: 0 0 10px black;
+}
+
+.simpson-tarjeta:hover {
+  min-height: 300px;
+  height: fit-content;
+  box-shadow: 0 0 20px yellow;
+}
+
+.simpson-tarjeta .nombre {
+  font-weight: bold;
+}
+
+.simpson-tarjeta p {
+  margin: 0;
+  text-align: center;
+}
+
+.simpson-tarjeta img {
+  margin-bottom: 5px;
+  border-radius: 16px;
+  border: 1px solid white;
+}
